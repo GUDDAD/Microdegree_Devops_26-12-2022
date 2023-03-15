@@ -5,3 +5,5 @@ git push
 git add .
 git commit -m "file name"
 git pull
+git bash
+i terminal
