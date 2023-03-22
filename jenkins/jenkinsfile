@@ -1,0 +1,9 @@
+pipeline {
+        agent any
+	        stages{
+	                setps{
+			       sh "echo build is succuess"
+		}
+	}
+}
+                
