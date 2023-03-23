@@ -4,8 +4,8 @@ pipeline{
             stage('Build-System details'){
                 steps{
 		    sh '''
-                    echo '"ip adress"'
-		    hostname -I 
+                    echo '"SYSTEM DETAILS"'
+		    uname -a 
 		      '''
                 }
             }
